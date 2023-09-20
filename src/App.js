@@ -1,10 +1,20 @@
+import Form from "./Form";
+import Header from "./Header";
+import Section from "./Section";
+import Footer from "./Footer";
+import Container from "./Container";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       
-      </header>
-    </div>
+    <Container className="container">
+      <Header />
+      <Section
+        body={
+          <Form />
+        }
+      />
+      <Footer />
+    </Container>
   );
 }
 
