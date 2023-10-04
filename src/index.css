@@ -8,6 +8,6 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #ccc;
+  background-image: url(./background.jpg);
   padding: 25px;
   }
