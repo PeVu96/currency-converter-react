@@ -31,7 +31,7 @@ const Form = ({ calculateResult }) => {
           )))}
         </select>
       </label>
-      <span className="form__option">Wartość w wybranej walucie:</span>
+      <span className="form__option">Wartość w złotych:</span>
       <label className="form__label">
         <input
           value={amount}
