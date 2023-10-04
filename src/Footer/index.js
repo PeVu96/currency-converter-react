@@ -2,7 +2,7 @@ import "./style.css";
 
 const Footer = ({ result }) => (
   <p className="footer">
-    Za podaną ilość wybranej waluty otrzymasz:&nbsp;
+    Za podaną ilość polskich złotych otrzymasz:&nbsp;
     {result !== undefined && (
       <>
         <strong>
