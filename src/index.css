@@ -10,4 +10,6 @@ body {
   font-family: 'Roboto', sans-serif;
   background-image: url(./background.jpg);
   padding: 25px;
+  background-size: cover;
+  background-attachment: fixed;
   }
