@@ -7,7 +7,7 @@ import { useState } from "react";
 import { currencies } from "./currencies";
 
 function App() {
-  const [result, setResult] = useState();
+  const [result, setResult] = useState(null);
 
   const calculateResult = (amount, currency) => {
     const rate = currencies.find(({ short }) => short === currency).rate;
