@@ -5,9 +5,9 @@ const Footer = ({ result }) => (
     Za podaną ilość polskich złotych otrzymasz:&nbsp;
     {result !== undefined && (
       <>
-        <strong>
+        <span className="footer__result">
           {result.targetAmount.toFixed(2)}&nbsp;{result.currency}
-        </strong>
+        </span>
       </>
     )}
   </p>

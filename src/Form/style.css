@@ -9,6 +9,7 @@
     .form {
         grid-template-columns: 90%;
         justify-content: center;
+        grid-gap: 10px;
     }
 
     .form__option {
@@ -17,6 +18,12 @@
 
     .form__label {
         margin-bottom: 20px;
+    }
+
+    .form__button {
+        justify-self: center;
+        width: 60%;
+    
     }
 }
 
@@ -34,6 +41,7 @@
     background-color: #0000ff79;
     font-weight: bold;
     cursor: pointer;
+    max-width: 50%;
 }
 
 .form__button:hover {

@@ -5,6 +5,10 @@
 @media (max-width: 767px) {
     .footer {
         text-align: center;
-        margin-top: 30px;
     }
+}
+
+.footer__result {
+    font-size: 25px;
+    font-weight: bold;
 }
