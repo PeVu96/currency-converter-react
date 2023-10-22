@@ -1,0 +1,17 @@
+.clock {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+}
+
+.time {
+    text-align: end;
+}
+
+@media (max-width: 767px) {
+    .clock {
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        justify-items: center;
+    }
+}
